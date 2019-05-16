@@ -79,21 +79,23 @@ a {
   border-radius: 0;
 }
 
-.mm-card {
-  //feel free to make any comments to explain your thinking
+.card-container {
 
-  .image {
-    //including some base styles so this shows up in the basic page, feel free to change these
-    min-height: 24rem;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  .mm-card {
+    //feel free to make any comments to explain your thinking
+
+    .image {
+      //including some base styles so this shows up in the basic page, feel free to change these
+      min-height: 24rem;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .content {
+
+    }
+
   }
-
-  .content {
-
-  }
-
-
 }

@@ -19,17 +19,17 @@ header {
 .container {
   margin-top: 5rem; }
 
-h1, h2, .mm-card .content .title {
+h1, h2, .card-container .mm-card .content .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #000; }
 
-p, h1, h2, .mm-card .content .title {
+p, h1, h2, .card-container .mm-card .content .title {
   margin: 0 0 2rem 0; }
 
 h1 {
   font-size: 4rem; }
 
-h2, .mm-card .content .title {
+h2, .card-container .mm-card .content .title {
   font-size: 3rem; }
 
 p {
@@ -40,17 +40,17 @@ a {
   a:hover {
     color: #002f6c; }
 
-.mm-card .content .category {
+.card-container .mm-card .content .category {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   line-height: 1.2rem;
   margin-bottom: 2.4rem; }
 
-.mm-card .content footer .legal-text {
+.card-container .mm-card .content footer .legal-text {
   font-size: 1.2rem; }
 
-.mm-card .content footer button {
+.card-container .mm-card .content footer button {
   color: #000;
   font-size: 1rem;
   letter-spacing: .1rem;
@@ -61,20 +61,28 @@ a {
   border: 0;
   border-radius: 0; }
 
-.mm-card .image {
+.card-container .mm-card .image {
   min-height: 24rem;
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 
-.mm-card {
-  background-color: white;
-  margin-bottom: 3.2rem; }
-  .mm-card .content {
-    padding: 2.5rem 2.5rem;
-    font-family: Helvetica, Arial, sans-serif; }
-    .mm-card .content footer a {
-      font-weight: bold; }
+.card-container {
+  padding-top: 3.5rem; }
+  .card-container .mm-card {
+    height: 100%;
+    background-color: white;
+    margin-bottom: 3.2rem; }
+    .card-container .mm-card .content {
+      padding: 2.4rem 3.2rem 3.2rem;
+      font-family: Helvetica, Arial, sans-serif; }
+      .card-container .mm-card .content footer {
+        bottom: 0.5rem;
+        height: 10%;
+        position: absolute;
+        width: 100%; }
+        .card-container .mm-card .content footer a {
+          font-weight: bold; }
 
 /*# sourceMappingURL=mm-code-exercise.css.map */
