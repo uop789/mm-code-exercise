@@ -75,14 +75,17 @@ a {
     background-color: white;
     margin-bottom: 3.2rem; }
     .card-container .mm-card .content {
-      padding: 2.4rem 3.2rem 3.2rem;
+      padding: 2.4rem 2.4rem;
       font-family: Helvetica, Arial, sans-serif; }
+      .card-container .mm-card .content .content-text-area {
+        height: 18rem; }
       .card-container .mm-card .content footer {
         bottom: 0.5rem;
         height: 10%;
-        position: absolute;
-        width: 100%; }
+        position: absolute; }
         .card-container .mm-card .content footer a {
-          font-weight: bold; }
+          font-weight: bold;
+          position: relative;
+          top: 50%; }
 
 /*# sourceMappingURL=mm-code-exercise.css.map */
